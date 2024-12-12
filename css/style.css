@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec-carousel{
+    height: 60vh;
+}
+
+.foot-carousel{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.551);
+    border-radius: 6px;
+}
+.btn-next{
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 2px;
+}
+.icon-socialmedia-carousel{
+    position: absolute; 
+    right: 0;
+    top: 20px;
+}
+.carousel-inner{
+    position: relative;
+}
+.icon-socialmedia-carousel i{
+    color: white;
+    font-size: 30px
+}
+.icon-socialmedia-carousel li{
+    border: 2px solid black;
+    margin: 10px 15px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+/* img fixed */
+.fixed{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/hero-1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.card-effect::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    transition: .5s;
+}
+.card-effect:hover::after{
+    background-color: rgba(0, 0, 0, 0.184);
+    width: 100%;
+    height: 100%;
+}
+.card-effect::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 0%;
+    transition: .5s;
+}
+.card-effect:hover::before{
+    background-color: rgba(0, 0, 0, 0.184);
+    width: 100%;
+    height: 100%;
+}
+.card-effect h5{
+    font-weight: bold;
+    
+}
+.accordion-button{
+    font-weight: bold;
+}
+
+.card-news{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.left,
+.right-img{
+    transform: skewX(-11deg);
+    width: 70%;
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+.right-img{
+    left: 27%;
+    transform: skewX(11deg);
+}
+.card-news .left span::before,
+.card-news .right-img span::before
+{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 4%;
+    height: 3px;
+    background-color: black;
+}
+.right,
+.left-img{
+    width: 25%;
+    height: 300px;
+    background-image: url(../images/mer-car-whi.jpeg);
+    background-size: cover;
+    position: absolute;
+    right: 0%;
+    overflow: auto;
+}
+.left-img{
+    left: 0%;
+}
+
+.img-card{
+    transition: .3s;
+}
+.img-card:hover {    
+    cursor: pointer;
+    transform: scale(0.8 , 0.8);
+
+}
+.join-us .card{
+    /* background-color: rgb(36, 36, 185); */
+    box-shadow: 10px 10px 40px black;
+}
+.footer{
+    width: 100%;
+    height: 380px;
+    background-color: black;
+    color: white;
+}
+
+
+.box1-foot .h3::before{
+    position: absolute;
+    content: " ";
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+
+}
+.card-btn1 .btn {
+    background-color: rgb(110, 10, 0);
+    color: white;
+}
+.login:hover{
+    color: white !important;
+}
+.social{
+    
+    position: fixed;
+    top: 6rem;
+    right: 2rem;
+    width: 4rem;
+    z-index: 1000;
+    height: 30rem;
+
+}
+
+.listSocial{
+    display: flex ;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.social ul li{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.social ul li i{
+    color: white;
+    background-color: rgb(60, 60, 60);
+    padding: 8px;
+    border-radius: 11px;
+}
+.nav-item{
+    margin-right: 70px;
+}
+@media (max-width : 768px){
+    
+    .Provinces{
+        margin-top: -270px;
+    }
+    .Provinces h1{
+        margin: 50px 0px 20px 0px !important;
+    }
+    
+    .right , .left-img{
+        display: none !important;
+    }
+    .left {        
+        width: 100%;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        padding: 5px;
+        transform: skew(0deg);
+    }
+    .right-img{
+
+        width: 100%;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        padding: 5px;
+        transform: skew(0deg);
+    }
+    .card-news .left span::before,
+    .card-news .right-img span::before
+    {
+        content: " ";
+        position: absolute;
+        left: 38%;
+        top: 70px;
+        width: 6%;
+        height: 3px;
+        background-color: black;
+    }
+    
+    .button-left .btn1,.button-left .btn3{
+        opacity: 1 !important;
+    }
+    .footer{
+        height: auto !important;
+    }
+    .footer .box1{
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .box2, .box3{
+        display: none;
+    }
+    .footer h3{
+        left: 0 !important;
+        text-align: center;
+    }
+    
+    .join-us{
+        gap: 80px !important;
+    }
+    .join-us .card{
+        width: 400px !important;
+    }
+    .join-us p{
+        padding-left: 20px;
+    }
+    .card-benz{
+        gap: 20px !important;
+        padding-bottom: 50px !important;
+        margin-top: 30px !important;
+    }
+    .foot-carousel{
+        opacity: 0 !important;
+    }
+    .carousel-indicators{
+        margin-bottom: 239px !important;
+    }
+    .carousel-img2, .carousel-img1 {
+        height: 428px;
+    }
+    .btn2, .btn3{
+        display: none !important;
+    }
+
+}
+
+@media (max-width :567px){
+
+    .card-news{
+        height: 360px !important;
+    }
+    .Provinces{
+        margin-top: -390px;
+    }
+    .Provinces h1{
+        margin: 30px 0px 20px 0px !important;
+    }
+    .btn-pr , .btn-n{
+        margin-bottom: 230px !important;
+
+    }
+    .carousel-img2 , .carousel-img1 {
+        height: 360px;
+    
+    }
+    .carousel-indicators{
+        margin-bottom: 405px !important;
+    }
+    .card-news .left span::before,
+    .card-news .right-img span::before
+    {
+        content: " ";
+        position: absolute;
+        left: 152px;
+        top: 65px;
+        width: 8%;
+        height: 3px;
+        background-color: black;
+    }
+    .social ul li{
+        font-size: 1.5rem;
+    }
+    .join-us{
+        gap: 30px !important;
+    }
+    .join-us .card{
+        width: 300px !important;
+    }
+}

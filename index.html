@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawasone link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Third Website</title>
+    
+</head>
+<body class="position-relative">
+  <!-- social media -->
+    <div class="social">
+      <ul class="listSocial">
+        <a href="">
+          <li>
+            <i class="fa fa-facebook-square"></i>
+          </li>
+        </a>
+
+        <a href="">
+          <li>
+            <i class="fa fa-whatsapp"></i>
+          </li>
+        </a>
+
+        <a href="">
+          <li>
+            <i class="fa fa-twitter-square" aria-hidden="true "></i>
+          </li>
+        </a>
+
+        <a href="">
+          <li>
+            <i class="fa fa-linkedin"></i>
+          </li>
+        </a>
+
+        <a href="">
+          <li>
+            <i class="fa fa-instagram"></i>
+          </li>
+        </a>
+
+      </ul>
+    </div>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 w-100  " style="z-index: 1000; height: 75px;">
+        <div class="container-fluid bg-light pb-2">
+          <img src="images/logo.jpeg" width="120px" height="75px" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" style=" font-size: 30px;" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0" >
+
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galary</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+              <li class=" nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  Dropdown 
+                </a>
+                <ul class="dropdown-menu bg-black ">
+                  <li><a class="dropdown-item bg-black text-light" href="#">Action</a></li>
+                  <li><hr class="dropdown-divider bg-light"></li>
+                  
+                  <li><a class="dropdown-item bg-black text-light" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider bg-light"></li>
+                  
+                  <li><a class="dropdown-item bg-black text-light" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+        
+
+            <form class="d-flex" >
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark mx-2" type="submit">Search</button>
+              <button class="btn login btn-outline-light bg-black mx-2" type="button">Login</button>
+            </form>
+          
+          </div>
+          
+        </div>
+    </nav>
+
+      
+
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    
+    <div class="carousel-inner " style="margin-top: 75px; height: 750px;">
+      
+        <div class="carousel-item active sec-carousel " >
+
+        <img src="images/hero.jpg" height="750px" class="carousel-img1 d-block w-100"  >
+      
+        </div>
+        <div class="carousel-item carousel-img2  sec-carousel">
+          <img src="images/th.jpeg"  height="750px" class="carousel-img2 d-block w-100"  >
+          <div class="carousel-caption foot-carousel d-none d-md-block " style="margin-bottom: -178px;">
+              <h5>Mercedrs </h5>
+              <p>Some representative placeholder content for the second slide.</p>
+              
+              <button class="btn btn-outline-success border-light text-light bg-black mx-2" type="submit">See More</button>
+          </div>
+        </div>
+        
+
+    </div>
+
+    <button class="carousel-control-prev btn-pr" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-next " aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next btn-n" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon  btn-next " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    
+
+    
+    </div>
+
+    <!-- card section -->
+
+    <div class="Provinces width-80 ">
+
+        <h1 class="text-center mb-5 mt-5 " style="font-weight: 600;">PROVINCES</h1>
+        <div class="row gap-2 justify-content-center mb-5 justify-content-around">
+
+          <div class="card  " style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card  " style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card  " style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row gap-2 justify-content-center mb-5 justify-content-around ">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="row gap-2 justify-content-center  justify-content-around">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 18rem;">
+            <img src="images/car-marcedrs-red.jpeg" class="card-img-top " alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-center text-uppercase" style="font-weight: bold;">Mercedes </h3>
+              <p class="card-text text-secondary" style="font-weight: bold;">Some quick example text to build on the Mercedes  and make up the bulk of the card's content.</p>
+              <div class="justify-content-around card-btn1">
+                <a href="#" class="btn">About Us <i class="fa fa-hand-o-down mx-1 "></i></a>    
+                <a href="#" class="btn mx-2">Visit Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- welcome -->
+    <div class=" p-5 my-5 bg-dark text-white text-center">
+      <h1>Welcome To Mercedes Company</h1>
+      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident culpa explicabo inventore distinctio saepe ipsa</p>
+      <p> doloremque non ullam aperiam unde optio, dicta commodi sunt nulla repellat, itaque soluta aut.</p>
+    </div>
+
+    <!-- img fixed -->
+    <div class="fixed"></div>
+
+    <!--  -->
+    <div class=" width-90">
+      <div class="row gap-2 justify-content-center m-5 justify-content-around">
+
+        <div class="card-effect card ml-5 mr-5 mt-2" style="width: 18rem;">
+          <img src="images/mercedes-white.jpeg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes </h5>
+            <p>Indescribable luxury</p>
+          
+            <a href="#" class="btn btn-dark">Know More</a>
+          </div>
+        </div>
+  
+        <div class="card-effect card ml-5 mr-5 mt-2" style="width: 18rem;">
+          <img src="images/m.jpeg" class="card-img-top rounded" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes </h5>
+            <p>Indescribable luxury</p>
+          
+            <a href="#" class="btn btn-dark">Know More</a>
+          </div>
+        </div>
+  
+        <div class="card-effect card ml-5 mr-5 mt-2 " style="width: 18rem;">
+          <img src="images/mercedes-white.jpeg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes </h5>
+            <p>Indescribable luxury</p>
+          
+            <a href="#" class="btn btn-dark ">Know More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row gap-2 justify-content-center m-5  justify-content-around" >
+
+        <div class="card-effect card ml-5 mr-5 mt-2" style="width: 18rem;">
+          <img src="images/m.jpeg" class="card-img-top rounded" alt="...">
+          <div class="card-body"> 
+            <h5 class="card-title">Mercedes </h5>
+            <p>Indescribable luxury</p>
+          
+            <a href="#" class="btn btn-dark">Know More</a>
+          </div>
+        </div>
+  
+        <div class="card-effect card ml-5 mr-5 mt-2" style="width: 18rem;">
+          <img src="images/mercedes-white.jpeg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes </h5>
+            <p>Indescribable luxury</p>
+          
+            <a href="#" class="btn btn-dark">Know More</a>
+          </div>
+        </div>
+  
+        <div class="card-effect card ml-5 mr-5 mt-2" style="width: 18rem;">
+          <img src="images/m.jpeg" class="card-img-top rounded" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes </h5>
+            <p>Indescribable luxury</p>
+          
+            <a href="#" class="btn btn-dark">Know More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--collapse -->
+    <h1 class="text-center my-4" style="font-weight: 600;">Popular city in Syria</h1>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Mercedes AMG
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt quidem tempore iste, eaque cupiditate porro placeat odit quae. Facilis illo nesciunt id deleniti, ea modi dolore optio assumenda officia?
+            Culpa quisquam quasi praesentium magni, pariatur enim similique debitis perferendis quibusdam ullam saepe, error sapiente atque vitae? Aliquid itaque praesentium rerum incidunt distinctio? Cum dolores sed nihil exercitationem eum ab.
+      </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="accordion mt-3" id="accordionExample2">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Mercedes Brabous
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt quidem tempore iste, eaque cupiditate porro placeat odit quae. Facilis illo nesciunt id deleniti, ea modi dolore optio assumenda officia?
+            Culpa quisquam quasi praesentium magni, pariatur enim similique debitis perferendis quibusdam ullam saepe, error sapiente atque vitae? Aliquid itaque praesentium rerum incidunt distinctio? Cum dolores sed nihil exercitationem eum ab.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="accordion mt-3" id="accordionExample3">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            Mercedes Maybach
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample3">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt quidem tempore iste, eaque cupiditate porro placeat odit quae. Facilis illo nesciunt id deleniti, ea modi dolore optio assumenda officia?
+            Culpa quisquam quasi praesentium magni, pariatur enim similique debitis perferendis quibusdam ullam saepe, error sapiente atque vitae? Aliquid itaque praesentium rerum incidunt distinctio? Cum dolores sed nihil exercitationem eum ab.
+     </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- News -->
+    
+    <h1 class="text-center my-4 pt-4 " style="font-weight: 600;"> Cars News</h1>
+    <div class="card-news position-relative " style="height: 300px;">
+      <div class="left">
+        <h2 style="font-weight: 600;">Podcaste Title</h2>
+        <span>Mon, May 25th 2020</span>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at minus non voluptates aut omnis hic totam qui incidunt, laboriosam voluptas repudiandae officiis! Culpa ex veritatis ad consequatur suscipit sapiente.</p>
+        <div class="button-left">
+          <button type="button" class="btn btn1 btn-dark mb-5">Products</button>
+          <button type="button" class="btn btn2 btn-dark ml-5 mr-5">Products</button>
+          <button type="button " class="btn btn3 btn-dark">Products</button>
+        </div>
+      </div>
+
+      <div class="right">
+
+      </div>
+    </div>
+
+    <div class="card-news mt-5" style="height: 300px;">
+      <div class="left-img">
+        
+      </div>
+      
+
+      <div class="right-img">
+        <h2 style="font-weight: 600;">Podcaste Title</h2>
+        <span>Mon, May 25th 2020</span>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at minus non voluptates aut omnis hic totam qui incidunt, laboriosam voluptas repudiandae officiis! Culpa ex veritatis ad consequatur suscipit sapiente.</p>
+        <div class="button-left pb-3">
+          <button type="button" class="btn btn1 btn-dark ">Products</button>
+          <button type="button" class="btn btn2 btn-dark ml-5 mr-5">Products</button>
+          <button type="button " class="btn btn3 btn-dark">Products</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-news mt-5" style="height: 300px;">
+      <div class="left">
+        <h2 style="font-weight: 600;">Podcaste Title</h2>
+        <span>Mon, May 25th 2020</span>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at minus non voluptates aut omnis hic totam qui incidunt, laboriosam voluptas repudiandae officiis! Culpa ex veritatis ad consequatur suscipit sapiente.</p>
+        <div class="button-left">
+          <button type="button" class="btn btn1 btn-dark ">Products</button>
+          <button type="button" class="btn btn2 btn-dark ml-5 mr-5">Products</button>
+          <button type="button " class="btn btn3 btn-dark">Products</button>
+        </div>
+      </div>
+
+      <div class="right">
+
+      </div>
+    </div>
+
+    <div class="card-news mt-5" style="height: 300px; margin-bottom: 100px;">
+      <div class="left-img">
+        
+      </div>
+      
+
+      <div class="right-img">
+        <h2 style="font-weight: 600;" >Podcaste Title</h2>
+        <span>Mon, May 25th 2020</span>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at minus non voluptates aut omnis hic totam qui incidunt, laboriosam voluptas repudiandae officiis! Culpa ex veritatis ad consequatur suscipit sapiente.</p>
+        <div class="button-left">
+          <button type="button" class="btn btn1 btn-dark ">Products</button>
+          <button type="button" class="btn btn2 btn-dark ml-5 mr-5">Products</button>
+          <button type="button " class="btn btn3 btn-dark">Products</button>
+        </div>
+      </div>
+    </div>  
+
+    <!-- img fixed -->
+    <div class="fixed pt-5"></div>
+
+    <!-- 3 cards section -->
+
+    <div class="card-benz row justify-content-center position-relative  mb-5" style="margin-top: 130px; gap: 130px;">
+      <div class="card img-card bg-black" style="width:350px; height: 400px;">
+        <img class="card-img-top " src="images/hero.jpg" style="width: 100% ; height: 100%;" alt="Card image">
+        <div class="card-img-overlay text-light position-absolute" style="background-color: rgba(0, 0, 0, 0.557);">
+          <h4 class="card-title">The Mercedes Benz</h4>
+          <p class="card-text">October 15, 705</p>
+          <img src="images/hero-1.jpeg" class=" left-0 position-absolute" style="width: 120px; height: 120px; bottom:85px ; border-radius: 50%;">
+          <!-- <p class="position-absolute left-0 bottom-0">Lorem ipsum dolor sit amet consectetur,</p> -->
+        </div>
+      </div>
+
+      <div class="card img-card bg-black" style="width:350px; height: 400px;">
+        <img class="card-img-top " src="images/hero.jpg" style="width: 100% ; height: 100%;" alt="Card image">
+        <div class="card-img-overlay text-light position-absolute" style="background-color: rgba(0, 0, 0, 0.557);">
+          <h4 class="card-title">The Mercedes Benz</h4>
+          <p class="card-text">October 15, 705</p>
+          <img src="images/hero-1.jpeg" class=" left-0 position-absolute" style="width: 120px; height: 120px; bottom:85px ; border-radius: 50%;">
+          <!-- <p class="position-absolute left-0 bottom-0">Lorem ipsum dolor sit amet consectetur,</p> -->
+        </div>
+      </div>
+
+      <div class="card img-card bg-black" style="width:350px; height: 400px;">
+        <img class="card-img-top " src="images/hero.jpg" style="width: 100% ; height: 100%;" alt="Card image">
+        <div class="card-img-overlay text-light position-absolute" style="background-color: rgba(0, 0, 0, 0.557);">
+          <h4 class="card-title">The Mercedes Benz</h4>
+          <p class="card-text">October 15, 705</p>
+          <img src="images/hero-1.jpeg" class=" left-0 position-absolute" style="width: 120px; height: 120px; bottom:85px ; border-radius: 50%;">
+          <!-- <p class="position-absolute left-0 " style="bottom: 67px;">Lorem ipsum dolor sit amet consectetur,</p> -->
+        </div>
+      </div>
+      
+    </div>
+
+
+    <!-- join us -->
+    <h1 class="text-center my-4" style="font-weight: 600;">JOIN US</h1>
+
+    <div class="join-us row justify-content-center position-relative  mb-5" style="margin-top: 60px; gap: 200px;">
+      
+      <div class="card position-relative" style="width: 250px; height: 220px;">
+        <h2 class="text-center mt-3" style="font-weight: 600;">Subscribe Now</h2>
+        <i class="fa fa-instagram text-center" style="font-size: 120px;"></i>
+        <p class="position-absolute bottom-0" style="left: 35%;">Go To Link</p>
+      </div>
+
+      
+      <div class="card position-relative" style="width: 250px; height: 220px;">
+        <h2 class="text-center mt-3" style="font-weight: 600;">Follow</h2>
+        <i class="	fa fa-linkedin-square text-center" style="font-size: 120px;"></i>
+        <p class="position-absolute bottom-0" style="left: 35%;">Go To Link</p>
+      </div>
+
+      
+      <div class="card position-relative" style="width: 250px; height: 220px;">
+        <h2 class="text-center mt-3" style="font-weight: 600;">Like the page</h2>
+        <i class="fa fa-facebook-official text-center" style="font-size: 120px;"></i>
+        <p class="position-absolute bottom-0" style="left: 35%;">Go To Link</p>
+      </div>
+
+      
+      <div class="card position-relative" style="width: 250px; height: 220px;">
+        <h2 class="text-center mt-3" style="font-weight: 600;">watch vedios </h2>
+        <i class="fa fa-whatsapp text-center" style="font-size: 120px;"></i>
+        <p class="position-absolute bottom-0" style="left: 35%;">Go To Link</p>
+      </div>
+
+     </div>
+
+     <!-- footer -->
+    
+    <div class="footer position-relative ">
+      <div class="boxs m-5 p-4 d-flex justify-content-between">
+        <div class="box box1">
+          <div class="head-box d-flex pb-4" style="border-bottom: 1px solid gray;">
+            <img src="images/mm.jpeg" class=" left-0 top-0 " style="width: 80px; height: 80px; border-radius: 50%;">
+            <h2 class="mt-3" style="margin-left: 15px;">Mercedrs</h2>
+            
+          </div>
+          <div class="text-center mt-5">
+            <p>Tel : 000-000-000</p>
+            <p>Address : SYRIA</p>
+            <p>Fax : 000-000-000</p>
+          </div>
+        </div>
+
+
+        <div class="box box2">
+          <div class="head-box d-flex pb-4" style="border-bottom: 1px solid gray;">
+            <img src="images/mm.jpeg" class=" left-0 top-0 " style="width: 80px; height: 80px; border-radius: 50%;">
+            <h2 class="mt-3" style="margin-left: 15px;">Mercedrs</h2>
+            
+          </div>
+          <div class="text-center mt-5">
+            <p>Tel : 000-000-000</p>
+            <p>Address : SYRIA</p>
+            <p>Fax : 000-000-000</p>
+          </div>
+
+        </div>
+  
+        <div class="box box3">
+          <div class="head-box d-flex pb-4" style="border-bottom: 1px solid gray;">
+            <img src="images/mm.jpeg" class=" left-0 top-0 " style="width: 80px; height: 80px; border-radius: 50%;">
+            <h2 class="mt-3" style="margin-left: 15px;">Mercedrs</h2>
+            
+          </div>
+          <div class="text-center mt-5">
+            <p>Tel : 000-000-000</p>
+            <p>Address : SYRIA</p>
+            <p>Fax : 000-000-000</p>
+          </div>
+        </div>
+  
+      </div>
+
+
+
+
+
+      <h3 class=" bottom-0 position-absolute" style="left: 25%;">COPYRIGHT © 2024 RAMA MOUHAMMAD NAHHAS. ALL RIGHTS</h3>
+    </div>
+    
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
